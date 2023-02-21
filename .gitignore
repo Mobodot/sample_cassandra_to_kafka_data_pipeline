@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# cassandra_data
+.cassandraWorkbench
+.cassandraWorkbench.jsonc
+/src/cassandra_data/
+
+# VScode
+.vscode
+
