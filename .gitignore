@@ -132,7 +132,10 @@ dmypy.json
 # cassandra_data
 .cassandraWorkbench
 .cassandraWorkbench.jsonc
-/src/cassandra_data/
+cassandra_data/
+employee_data/
+kafka_data/
+zookeeper_data/
 
 # VScode
 .vscode
