@@ -1,0 +1,6 @@
+.cassandraWorkbench
+.cassandraWorkbench.jsonc
+cassandra_data
+employee_data
+kafka_data
+zookeeper_data
