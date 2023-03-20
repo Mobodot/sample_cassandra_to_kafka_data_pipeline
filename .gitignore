@@ -140,3 +140,5 @@ zookeeper_data/
 # VScode
 .vscode
 
+# logs
+logs
