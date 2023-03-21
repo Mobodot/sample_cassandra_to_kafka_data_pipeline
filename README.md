@@ -10,13 +10,17 @@ This project demonstrates how to setup a development environment locally to crea
 
 To start the setup
 
-1. ```docker compose up -d```
+1. **Create** and **activate** your virtual environment.
+   
+2. Run pip install requirements.txt
 
-2. Install ***Cassandra Workbench*** extension in vscode to work with cassandra db.
+3. ```docker compose up -d```
+
+4. Install ***Cassandra Workbench*** extension in vscode to work with cassandra db.
 
 **NB**: Follow the setup process on vscode to get it started.
 
-3. Load the data into cassandra by copying the script in CQL_SCRIPT.cql in the project home folder.
+5. Load the data into cassandra by copying the script in CQL_SCRIPT.cql in the project home folder.
 e.g:
 
 Create a keyspace with name "sample_db"
@@ -42,7 +46,7 @@ Create a table employee
  );
 ```
 
-4. Insert records into the Employee table refer to CQL_SCRIPT.cql
+6. Insert records into the Employee table refer to CQL_SCRIPT.cql
 
 Once above steps is completed execute the command below
 
