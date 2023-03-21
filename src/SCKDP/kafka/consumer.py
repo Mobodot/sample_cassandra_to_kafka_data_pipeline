@@ -45,7 +45,6 @@ def processEachInterval(df: DataFrame, epoch_id):
         logger.error(e)
 
 
-{'bootstrap_server': {KAFKA_BOOTSTRAP_SERVER}, 'kafka_topic': {KAFKA_TOPIC}, 'starting_offset': 'earliest'}
 if __name__ == "__main__":
     logger.info("Starting consumer spark app ...")
     logger.info(f"Loading kafka config: ['bootstrap_server': {KAFKA_BOOTSTRAP_SERVER}, 'kafka_topic': {KAFKA_TOPIC}, 'starting_offset': 'earliest']")
