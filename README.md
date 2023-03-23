@@ -26,7 +26,7 @@ e.g:
 Create a keyspace with name "sample_db"
 
 ```
-CREATE KEYSPACE ineuron
+CREATE KEYSPACE sample_db
 	WITH REPLICATION = {
 		'class': 'org.apache.cassandra.locator.SimpleStrategy',
 		'replication_factor': '3'
